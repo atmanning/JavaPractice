@@ -60,7 +60,7 @@ public class JFrameMain extends JFrame {
 	public JFrameMain() {
 		setTitle("Base to Base Conversion");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 259, 212);
+		setBounds(100, 100, 268, 226);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -69,7 +69,7 @@ public class JFrameMain extends JFrame {
 		textFieldB1 = new JTextField();
 		textFieldB1.setHorizontalAlignment(SwingConstants.CENTER);
 		textFieldB1.setText("16");
-		textFieldB1.setBounds(46, 68, 45, 26);
+		textFieldB1.setBounds(50, 68, 45, 26);
 		contentPane.add(textFieldB1);
 		textFieldB1.setColumns(10);
 		
@@ -116,7 +116,7 @@ public class JFrameMain extends JFrame {
 		Label label = new Label("Base1");
 		label.setAlignment(Label.CENTER);
 		label.setBackground(SystemColor.textHighlight);
-		label.setBounds(14, 10, 81, 16);
+		label.setBounds(10, 10, 85, 16);
 		contentPane.add(label);
 		
 		Label label_1 = new Label("Base2");
@@ -127,7 +127,7 @@ public class JFrameMain extends JFrame {
 		
 		Label label_2 = new Label("Brought to you by Professor Manning");
 		label_2.setAlignment(Label.CENTER);
-		label_2.setFont(new Font("Dialog", Font.PLAIN, 8));
+		label_2.setFont(new Font("Dialog", Font.PLAIN, 10));
 		label_2.setBounds(10, 164, 227, 16);
 		contentPane.add(label_2);
 	}
